@@ -1,12 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div>
+      <header>
+        <div>
+          <img src=".\assets\photo.jpg" alt="My professional photo" />
+        </div>
+        <h1>Belyaev Maxim</h1>
+        <h2><b>Beginner Java, C# developer</b></h2>
+      </header>
+      <main>
+        <section>
+          <h3>Goal and Priorities:</h3>
+          <h4>
+            My goal is to excel as a Java and C# programmer and contribute to
+            the development of innovative software solutions. I prioritize
+            delivering high-quality code, collaborating effectively with team
+            members, and continuously expanding my knowledge and skills in
+            programming.<br />
+            Strengths: I have a strong foundation in Java and C# programming
+            languages. I possess excellent problem-solving abilities, attention
+            to detail, and a passion for writing clean and efficient code.
+            <br />
+            Work Experience: Although I do not have professional work experience
+            yet, I have actively engaged in personal projects and training to
+            gain practical experience and enhance my programming skills.
+          </h4>
+          <h3>Skills</h3>
+          <h4>
+            <ul>
+              <li>Programming Languages: Java, C#</li>
+              <li>Frameworks: Spring Boot, .NET Framework</li>
+              <li>
+                Methodologies: Object-Oriented Programming (OOP), Agile Software
+                Development
+              </li>
+              <li>Version Control Systems: Git</li>
+              <li>
+                Development Tools: IntelliJ IDEA, Visual Studio, Unity Editor
+              </li>
+              <li>Game Development: Unity</li>
+              <li>3D Modeling: Blender</li>
+            </ul>
+          </h4>
+          <h3>Work Experience</h3>
+          <h4>None</h4>
+          <h3>Courses and Training</h3>
+          <h4>
+            <ul>
+              <li>Introduction to Java - Epam</li>
+              <li>.NET Development - Epam</li>
+              <li>BSUIR Java materials</li>
+            </ul>
+          </h4>
+          <h3>English Level</h3>
+          <h4>B2</h4>
+        </section>
+        <section>
+          <h3>Code Examples:</h3>
+          <h4>An example of using C# in a Unity project:</h4>
+          <pre>
+                <code>
+                    using UnityEngine;
+                    public class PlayerController : MonoBehaviour
+                    {
+                        private float speed = 5f;
+                        
+                        void Update()
+                        {
+                            float horizontalInput = Input.GetAxis("Horizontal");
+                            float verticalInput = Input.GetAxis("Vertical");
+                            
+                            Vector3 movement = new Vector3(horizontalInput, 0, verticalInput) * speed * Time.deltaTime;
+                            transform.Translate(movement);
+                        }
+                    }</code>
+            </pre>
+          <h4>
+            Example that demonstrates a basic implementation of a "Student"
+            class with properties and methods
+          </h4>
+
+          <pre>
+                <code>
+    public class Student {
+    private String name;
+    private int age;
+    private String major;
+
+    public Student(String name, int age, String major) {
+        this.name = name;
+        this.age = age;
+        this.major = major;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getMajor() {
+        return major;
+    }
+
+    public void setMajor(String major) {
+        this.major = major;
+    }
+
+    public void displayInfo() {
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Major: " + major);
+    }
+
+    public static void main(String[] args) {
+
+        Student student1 = new Student("John Doe", 20, "Computer Science");
+
+        student1.displayInfo();
+    }
+    }
+                  </code>
+            </pre>
+        </section>
+      </main>
+      <footer>
+        <h2>Contact Information:</h2>
+        <ul>
+          <li>Phone: +375445417858</li>
+          <li><a href="https://t.me/roooflianochka">Telegram</a></li>
+          <li><a href="maximbealev831@gmail.com">Email</a></li>
+          <li><a href="https://github.com/Roflianochka">GitHub</a></li>
+        </ul>
+      </footer>
+    </div>
+  </body>
 </html>
