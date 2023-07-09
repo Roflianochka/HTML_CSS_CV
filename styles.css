@@ -1,0 +1,194 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color:#222222;
+  color: #333;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  margin-top: 10px;
+  border: 4px solid #ffffff;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 32px;
+  color: #333333;
+}
+
+h2 {
+  margin-top: 10px;
+  font-size: 24px;
+  color: #555555;
+}
+
+header > h2{
+  color: #f5f5f5;
+}
+
+h3,
+h4 {
+  font-weight: normal;
+  color: #555555;
+}
+
+main {
+  margin-bottom: 20px;
+}
+
+h2:not(:first-child) {
+  margin-top: 30px;
+}
+
+ul {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.block {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.block h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.block p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.block ul {
+  margin-bottom: 10px;
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.block pre {
+  margin-bottom: 20px;
+  background-color: #f7f7f7;
+  padding: 10px;
+  overflow: auto;
+  border-radius: 4px;
+}
+
+.block code {
+  font-family: Consolas, monospace;
+}
+
+.block section {
+  margin-bottom: 20px;
+}
+
+pre {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: #f7f7f7;
+  padding: 10px;
+  overflow: auto;
+  border-radius: 4px;
+}
+
+code {
+  font-family: Consolas, monospace;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 10px 0;
+  color: #777777;
+  font-size: 14px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Custom Colors */
+
+.container {
+  background-color: #f9f9f9;
+  color: #222222;
+}
+
+header {
+  background-color: #333333;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+
+h1 {
+  color: #ffffff;
+}
+
+h2 {
+  color: #444444;
+}
+
+.block {
+  border-bottom: 1px solid #dddddd;
+}
+
+.block h2 {
+  color: #333333;
+}
+
+.block p {
+  color: #555555;
+}
+
+.block ul {
+  color: #555555;
+}
+
+footer {
+  background-color: #333333;
+  color: #aaaaaa;
+}
+
+footer a {
+  color: #ffffff;
+}
+
